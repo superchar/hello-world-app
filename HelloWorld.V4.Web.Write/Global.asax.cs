@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HelloWorld.V4.App_Start;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,6 +19,8 @@ namespace HelloWorld.V4.Web.Write
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            ContainerConfiguration.ConfigureContainer();
+            AutomapperConfiguration.Configure();
         }
     }
 }

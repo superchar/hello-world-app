@@ -1,0 +1,15 @@
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\bin\Debug\HelloWorld.V4.Write.Infrastructure.dll.config
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\bin\Debug\HelloWorld.V4.Write.Infrastructure.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\bin\Debug\HelloWorld.V4.Write.Infrastructure.pdb
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\bin\Debug\AutoMapper.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\bin\Debug\HelloWorld.V4.Write.Domain.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\bin\Debug\HelloWorld.V4.Write.Domain.pdb
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\bin\Debug\AutoMapper.xml
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\obj\Debug\HelloWorld.V4.Write.Infrastructure.csprojAssemblyReference.cache
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\obj\Debug\HelloWorld.V4.Write.Infrastructure.csproj.CopyComplete
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\obj\Debug\HelloWorld.V4.Write.Infrastructure.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Infrastructure\obj\Debug\HelloWorld.V4.Write.Infrastructure.pdb

@@ -1,0 +1,4 @@
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Domain\bin\Debug\HelloWorld.V4.Write.Domain.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Domain\bin\Debug\HelloWorld.V4.Write.Domain.pdb
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Domain\obj\Debug\HelloWorld.V4.Write.Domain.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V4.Write.Domain\obj\Debug\HelloWorld.V4.Write.Domain.pdb

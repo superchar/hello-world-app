@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+@model HelloWorld.V4.Web.Models.HelloWorldViewModel
+
+
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm())
+        {
+            <div class="form-group">
+
+                @Html.LabelFor(l => l.Message):
+                <p>
+                    @Html.ValidationMessageFor(l => l.Message)
+                </p>
+                @Html.TextBoxFor(l => l.Message, new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+
+                @Html.LabelFor(l => l.Name):
+                <p>
+                    @Html.ValidationMessageFor(l => l.Name)
+                </p>
+                @Html.TextBoxFor(l => l.Name, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary">Save</button>
+            </div>
+        }
+    </div>
+</div>
+

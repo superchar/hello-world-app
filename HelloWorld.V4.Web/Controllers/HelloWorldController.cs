@@ -10,21 +10,38 @@ namespace HelloWorld.V4.Web.Controllers
 {
     public class HelloWorldController : Controller
     {
-        private readonly IHelloWorldClient _helloWorldClient;
+        private readonly IHelloWorldClient _helloWorldReadClient;
 
-        public HelloWorldController(IHelloWorldClient helloWorldClient)
+        private readonly Write.SDK.IHelloWorldClient _helloWorldWriteClient;
+
+
+        public HelloWorldController(IHelloWorldClient helloWorldReadClient, Write.SDK.IHelloWorldClient helloWorldWriteClient)
         {
-            this._helloWorldClient = helloWorldClient;
+            this._helloWorldReadClient = helloWorldReadClient;
+            this._helloWorldWriteClient = helloWorldWriteClient;
         }
 
 
         public async Task<ActionResult> Index()
         {
-            var models = await _helloWorldClient.GetAllAsync();
+            var models = await _helloWorldReadClient.GetAllAsync();
 
             var viewModels = Mapper.Map<List<HelloWorldViewModel>>(models);
 
             return View(viewModels);
+        }
+
+        public ActionResult Create()
+        {
+            return View(new HelloWorldViewModel());
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> Create(HelloWorldViewModel model)
+        {
+            await _helloWorldWriteClient.CreateAsync(Mapper.Map<Write.SDK.HelloWorldDto>(model));
+
+            return RedirectToAction(nameof(HelloWorldController.Index));
         }
     }
 }

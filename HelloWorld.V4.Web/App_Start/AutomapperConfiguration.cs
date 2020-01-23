@@ -8,6 +8,9 @@ namespace HelloWorld.V4.Web
             AutoMapper.Mapper.Initialize(c =>
             {
                 c.CreateMap<Read.SDK.HelloWorldDto, Models.HelloWorldViewModel>();
+
+                c.CreateMap<Models.HelloWorldViewModel, Write.SDK.HelloWorldDto>();
+
             });
         }
     }
