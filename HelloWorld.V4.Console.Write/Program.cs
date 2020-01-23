@@ -1,10 +1,9 @@
 ﻿
+using AutoMapper;
 using HelloWorld.V4.Write.Domain;
 using HelloWorld.V4.Write.Infrastructure;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HelloWorld.V4.Console.Write
 {
@@ -12,6 +11,8 @@ namespace HelloWorld.V4.Console.Write
     {
         static void Main(string[] args)
         {
+            ConfigureMapper();
+
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
@@ -27,7 +28,7 @@ namespace HelloWorld.V4.Console.Write
                 };
 
                 channel.BasicConsume(queue: "helloWorldQueue",
-                                     autoAck: false,
+                                     autoAck: true,
                                      consumer: consumer);
                 System.Console.WriteLine("Press any key to close");
 
@@ -38,6 +39,14 @@ namespace HelloWorld.V4.Console.Write
         private static IHelloWorldService GetService()
         {
             return new HelloWorldService(new HelloWorldRepository());
+        }
+
+        private static void ConfigureMapper()
+        {
+            Mapper.Initialize(config => 
+            {
+                config.CreateMap<HelloWorldModel, V4.Write.Infrastructure.HelloWorld>();
+            });
         }
     }
 }
