@@ -1,0 +1,4 @@
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Domain\bin\Debug\HelloWorld.V6.Read.Domain.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Domain\bin\Debug\HelloWorld.V6.Read.Domain.pdb
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Domain\obj\Debug\HelloWorld.V6.Read.Domain.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Domain\obj\Debug\HelloWorld.V6.Read.Domain.pdb

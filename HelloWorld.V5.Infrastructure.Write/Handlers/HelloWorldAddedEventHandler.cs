@@ -9,7 +9,6 @@ namespace HelloWorld.V5.Write.Infrastructure.Handlers
 {
     public class HelloWorldAddedEventHandler : IEventHandler<HelloWorldAddedEvent>
     {
-
         private const string StreamName = "HelloWorldApp";
 
         public async Task HandleAsync(HelloWorldAddedEvent targetEvent)
