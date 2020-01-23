@@ -87,3 +87,9 @@ C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Web\obj\Debug\Hel
 C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Web\obj\Debug\HelloWorld.V6.Web.csproj.CopyComplete
 C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Web\obj\Debug\HelloWorld.V6.Web.dll
 C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Web\obj\Debug\HelloWorld.V6.Web.pdb
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Web\bin\HelloWorld.V4.Web.Write.SDK.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Web\bin\RabbitMQ.Client.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Web\bin\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Web\bin\HelloWorld.V4.Web.Write.SDK.pdb
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Web\bin\RabbitMQ.Client.xml
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Web\bin\Microsoft.Diagnostics.Tracing.EventSource.xml

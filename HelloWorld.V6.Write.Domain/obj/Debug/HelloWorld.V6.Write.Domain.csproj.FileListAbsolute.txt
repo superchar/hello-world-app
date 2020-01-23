@@ -1,0 +1,8 @@
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Write.Domain\bin\Debug\HelloWorld.V6.Write.Domain.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Write.Domain\bin\Debug\HelloWorld.V6.Write.Domain.pdb
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Write.Domain\bin\Debug\HelloWorld.V4.Write.Domain.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Write.Domain\bin\Debug\HelloWorld.V4.Write.Domain.pdb
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Write.Domain\obj\Debug\HelloWorld.V6.Write.Domain.csprojAssemblyReference.cache
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Write.Domain\obj\Debug\HelloWorld.V6.Write.Domain.csproj.CopyComplete
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Write.Domain\obj\Debug\HelloWorld.V6.Write.Domain.dll
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Write.Domain\obj\Debug\HelloWorld.V6.Write.Domain.pdb

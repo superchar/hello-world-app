@@ -12,10 +12,13 @@ namespace HelloWorld.V6.Web.Controllers
     {
         private readonly IHelloWorldClient _helloWorldReadClient;
 
+        private readonly V4.Web.Write.SDK.IHelloWorldClient _helloWorldWriteClient;
 
-        public HelloWorldController(IHelloWorldClient helloWorldReadClient)
+
+        public HelloWorldController(IHelloWorldClient helloWorldReadClient, V4.Web.Write.SDK.IHelloWorldClient helloWorldWriteClient)
         {
             this._helloWorldReadClient = helloWorldReadClient;
+            this._helloWorldWriteClient = helloWorldWriteClient;
         }
 
 
@@ -33,5 +36,13 @@ namespace HelloWorld.V6.Web.Controllers
             return View(new HelloWorldViewModel());
         }
 
+
+        [HttpPost]
+        public async Task<ActionResult> Create(HelloWorldViewModel model)
+        {
+            await _helloWorldWriteClient.CreateAsync(Mapper.Map<V4.Web.Write.SDK.HelloWorldDto>(model));
+
+            return RedirectToAction(nameof(HelloWorldController.Index));
+        }
     }
 }

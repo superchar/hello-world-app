@@ -63,6 +63,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V6.Web.Read", "H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V6.Web", "HelloWorld.V6.Web\HelloWorld.V6.Web.csproj", "{1EEE4BC3-0430-423C-8501-A53BA467F671}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V6.Write.Domain", "HelloWorld.V6.Write.Domain\HelloWorld.V6.Write.Domain.csproj", "{3D22DC96-B6E9-4ACC-B13C-8A77710DD078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V6.Console.Write", "HelloWorld.V6.Console.Write\HelloWorld.V6.Console.Write.csproj", "{F2C7FCCB-046E-4217-BA03-C0FA60F4EB46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,14 @@ Global
 		{1EEE4BC3-0430-423C-8501-A53BA467F671}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EEE4BC3-0430-423C-8501-A53BA467F671}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EEE4BC3-0430-423C-8501-A53BA467F671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D22DC96-B6E9-4ACC-B13C-8A77710DD078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D22DC96-B6E9-4ACC-B13C-8A77710DD078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D22DC96-B6E9-4ACC-B13C-8A77710DD078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D22DC96-B6E9-4ACC-B13C-8A77710DD078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C7FCCB-046E-4217-BA03-C0FA60F4EB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C7FCCB-046E-4217-BA03-C0FA60F4EB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C7FCCB-046E-4217-BA03-C0FA60F4EB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C7FCCB-046E-4217-BA03-C0FA60F4EB46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -194,6 +206,8 @@ Global
 		{8249EF28-AD8C-4BF1-8ED3-2FBB4D27A333} = {BB2C5957-2E8D-45BC-AAE7-17362BF699F1}
 		{646025DF-BED1-4725-B3ED-3572369C03DC} = {BB2C5957-2E8D-45BC-AAE7-17362BF699F1}
 		{1EEE4BC3-0430-423C-8501-A53BA467F671} = {BB2C5957-2E8D-45BC-AAE7-17362BF699F1}
+		{3D22DC96-B6E9-4ACC-B13C-8A77710DD078} = {BB2C5957-2E8D-45BC-AAE7-17362BF699F1}
+		{F2C7FCCB-046E-4217-BA03-C0FA60F4EB46} = {BB2C5957-2E8D-45BC-AAE7-17362BF699F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F9A6C57-87A2-40C0-B954-084D92E74BEF}

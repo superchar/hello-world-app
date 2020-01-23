@@ -11,6 +11,8 @@ namespace HelloWorld.V6.Web
             {
                 c.CreateMap<V4.Web.Read.SDK.HelloWorldDto, Models.HelloWorldViewModel>().ReverseMap();
 
+                c.CreateMap<Models.HelloWorldViewModel, V4.Web.Write.SDK.HelloWorldDto>();
+
             });
         }
     }

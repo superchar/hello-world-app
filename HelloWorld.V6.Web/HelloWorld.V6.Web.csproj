@@ -198,6 +198,10 @@
       <Project>{eb620182-bb31-4d72-ba51-928d6d941e7a}</Project>
       <Name>HelloWorld.V4.Web.Read.SDK</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HelloWorld.V4.Web.Write.SDK\HelloWorld.V4.Web.Write.SDK.csproj">
+      <Project>{3089abeb-49e7-4e73-8f61-e30b3968d685}</Project>
+      <Name>HelloWorld.V4.Web.Write.SDK</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
