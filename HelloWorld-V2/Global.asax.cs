@@ -1,6 +1,8 @@
-﻿using HelloWorld_V2.App_Start;
+﻿using HelloWorld.V2.Infrastructure;
+using HelloWorld_V2.App_Start;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;

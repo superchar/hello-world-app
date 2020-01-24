@@ -22,14 +22,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V3.Domain", "HelloWorld.V3.Domain\HelloWorld.V3.Domain.csproj", "{6AD98EC7-3871-4BF8-99CB-4157D9B0447A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Version 4", "Version 4", "{2D36DACB-503D-413C-8D6D-C42449AA5BB2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V4.Web.Write", "HelloWorld.V4.Web.Write\HelloWorld.V4.Web.Write.csproj", "{F9E72D38-599E-457E-849A-D1B559C09F17}"
+	ProjectSection(SolutionItems) = preProject
+		Instructions.txt = Instructions.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V4.Web.Read", "HelloWorld.V4.Web.Read\HelloWorld.V4.Web.Read.csproj", "{12A40AC7-0357-460C-BA15-6EA1D2A60543}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Version 5", "Version 5", "{8308F1AF-14B7-455C-A988-0402B888795E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V3.Web", "HelloWorld-V3\HelloWorld.V3.Web.csproj", "{A4928BC3-6D32-42C2-91C8-EB595118D6A4}"
+	ProjectSection(SolutionItems) = preProject
+		Instructions V5.txt = Instructions V5.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V4.Read.Domain", "HelloWorld.V4.Read.Domain\HelloWorld.V4.Read.Domain.csproj", "{D54EC385-10B2-4B25-9B79-41E365755876}"
 EndProject
@@ -52,6 +54,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V5.Console.Write", "HelloWorld.V5.Console.Write\HelloWorld.V5.Console.Write.csproj", "{3BA70E89-9C7E-47DC-9D9A-8D9760A8B9EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Version 6", "Version 6", "{BB2C5957-2E8D-45BC-AAE7-17362BF699F1}"
+	ProjectSection(SolutionItems) = preProject
+		Instructions V6.txt = Instructions V6.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V6.ProjectionManager.Console.Read", "HelloWorld.V6.ProjectionManager.Console.Read\HelloWorld.V6.ProjectionManager.Console.Read.csproj", "{104D3F8D-BA94-401D-9758-FEBD7972D827}"
 EndProject
@@ -66,6 +71,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V6.Write.Domain", "HelloWorld.V6.Write.Domain\HelloWorld.V6.Write.Domain.csproj", "{3D22DC96-B6E9-4ACC-B13C-8A77710DD078}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V6.Console.Write", "HelloWorld.V6.Console.Write\HelloWorld.V6.Console.Write.csproj", "{F2C7FCCB-046E-4217-BA03-C0FA60F4EB46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.V3.Web", "HelloWorld.V3.Web\HelloWorld.V3.Web.csproj", "{E3E7D28A-4511-467E-9A7C-B6C677FDE772}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,18 +104,10 @@ Global
 		{6AD98EC7-3871-4BF8-99CB-4157D9B0447A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AD98EC7-3871-4BF8-99CB-4157D9B0447A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AD98EC7-3871-4BF8-99CB-4157D9B0447A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F9E72D38-599E-457E-849A-D1B559C09F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9E72D38-599E-457E-849A-D1B559C09F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9E72D38-599E-457E-849A-D1B559C09F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9E72D38-599E-457E-849A-D1B559C09F17}.Release|Any CPU.Build.0 = Release|Any CPU
 		{12A40AC7-0357-460C-BA15-6EA1D2A60543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{12A40AC7-0357-460C-BA15-6EA1D2A60543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12A40AC7-0357-460C-BA15-6EA1D2A60543}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12A40AC7-0357-460C-BA15-6EA1D2A60543}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4928BC3-6D32-42C2-91C8-EB595118D6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4928BC3-6D32-42C2-91C8-EB595118D6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4928BC3-6D32-42C2-91C8-EB595118D6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4928BC3-6D32-42C2-91C8-EB595118D6A4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D54EC385-10B2-4B25-9B79-41E365755876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D54EC385-10B2-4B25-9B79-41E365755876}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D54EC385-10B2-4B25-9B79-41E365755876}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -177,6 +176,10 @@ Global
 		{F2C7FCCB-046E-4217-BA03-C0FA60F4EB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C7FCCB-046E-4217-BA03-C0FA60F4EB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2C7FCCB-046E-4217-BA03-C0FA60F4EB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E7D28A-4511-467E-9A7C-B6C677FDE772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E7D28A-4511-467E-9A7C-B6C677FDE772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E7D28A-4511-467E-9A7C-B6C677FDE772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E7D28A-4511-467E-9A7C-B6C677FDE772}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,9 +191,7 @@ Global
 		{438AB58B-C701-42EC-8EBA-3481F5CB45B6} = {BE031434-9B22-4CF2-AF92-A6389B66A452}
 		{660B2187-D560-4BFA-B079-7D058F15EFCA} = {677105B8-6DA4-45F8-96CA-52AF1F1CB6C3}
 		{6AD98EC7-3871-4BF8-99CB-4157D9B0447A} = {677105B8-6DA4-45F8-96CA-52AF1F1CB6C3}
-		{F9E72D38-599E-457E-849A-D1B559C09F17} = {2D36DACB-503D-413C-8D6D-C42449AA5BB2}
 		{12A40AC7-0357-460C-BA15-6EA1D2A60543} = {2D36DACB-503D-413C-8D6D-C42449AA5BB2}
-		{A4928BC3-6D32-42C2-91C8-EB595118D6A4} = {677105B8-6DA4-45F8-96CA-52AF1F1CB6C3}
 		{D54EC385-10B2-4B25-9B79-41E365755876} = {2D36DACB-503D-413C-8D6D-C42449AA5BB2}
 		{A339A213-B817-4754-AD4E-C577CCA24379} = {2D36DACB-503D-413C-8D6D-C42449AA5BB2}
 		{4BA5AC39-D828-4B6D-9D5B-F978FB0F8621} = {2D36DACB-503D-413C-8D6D-C42449AA5BB2}
@@ -208,6 +209,7 @@ Global
 		{1EEE4BC3-0430-423C-8501-A53BA467F671} = {BB2C5957-2E8D-45BC-AAE7-17362BF699F1}
 		{3D22DC96-B6E9-4ACC-B13C-8A77710DD078} = {BB2C5957-2E8D-45BC-AAE7-17362BF699F1}
 		{F2C7FCCB-046E-4217-BA03-C0FA60F4EB46} = {BB2C5957-2E8D-45BC-AAE7-17362BF699F1}
+		{E3E7D28A-4511-467E-9A7C-B6C677FDE772} = {677105B8-6DA4-45F8-96CA-52AF1F1CB6C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F9A6C57-87A2-40C0-B954-084D92E74BEF}

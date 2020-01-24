@@ -1,4 +1,3 @@
-C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Infrastructure\obj\Debug\HelloWorld.V6.Read.Infrastructure.csprojAssemblyReference.cache
 C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Infrastructure\bin\Debug\HelloWorld.V6.Read.Infrastructure.dll.config
 C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Infrastructure\bin\Debug\HelloWorld.V6.Read.Infrastructure.dll
 C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Infrastructure\bin\Debug\HelloWorld.V6.Read.Infrastructure.pdb
@@ -24,6 +23,7 @@ C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Infrastructu
 C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Infrastructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Infrastructure\bin\Debug\System.Security.Cryptography.Cng.xml
 C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Infrastructure\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Infrastructure\obj\Debug\HelloWorld.V6.Read.Infrastructure.csprojAssemblyReference.cache
 C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Infrastructure\obj\Debug\HelloWorld.V6.Read.Infrastructure.csproj.CopyComplete
 C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Infrastructure\obj\Debug\HelloWorld.V6.Read.Infrastructure.dll
 C:\Users\vlobyntsev\Source\Repos\hello-world-app\HelloWorld.V6.Read.Infrastructure\obj\Debug\HelloWorld.V6.Read.Infrastructure.pdb

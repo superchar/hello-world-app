@@ -1,0 +1,11 @@
+1. Start Event Storage
+cd D:\EventStore-OSS-Win-v5.0.5
+EventStore.ClusterNode.exe --db ./db --log ./logs
+load ES admin http://localhost:2113/web/index.html#/streams
+user : admin
+password : changeit
+
+2. open raven admin http://localhost:9379/
+
+3. start HelloWorld.V6.ProjectionManager.Console.Read
+

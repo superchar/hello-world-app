@@ -24,6 +24,7 @@ namespace HelloWorld.V4.Console.Write
                 {
                     var body = ea.Body;
                     var helloWorld = Utf8Json.JsonSerializer.Deserialize<HelloWorldModel>(ea.Body);
+                    System.Console.WriteLine($"Received HW message. {helloWorld.Message} by {helloWorld.Name}");
                     await service.CreateAsync(helloWorld);
                 };
 

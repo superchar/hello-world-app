@@ -9,7 +9,7 @@ namespace HelloWorld_V2.App_Start
             {
                 c.CreateMap<HelloWorld.V2.Infrastructure.HelloWorld, HelloWorld.V2.Domain.HelloWorldModel>()
                 .ReverseMap();
-                c.CreateMap<HelloWorld.V2.Domain.HelloWorldModel, HelloWorld_V2.Models.HelloWorldViewModel>()
+                c.CreateMap<HelloWorld.V2.Domain.HelloWorldModel, Models.HelloWorldViewModel>()
                 .ReverseMap();
             });
         }
